@@ -13,6 +13,7 @@ const UpgradePlanCard = () => {
           height: "100%",
         }}
       >
+        {/* UPGRAD PLAN */}
         <Title level={3}>Upgrade your plan</Title>
         <div style={{ width: "80%" }}>
           <Text type="secondary" style={{ fontSize: 16 }}>
@@ -65,6 +66,7 @@ const UpgradePlanCard = () => {
           </Row>
         </Card>
 
+        {/* PAYMENT DETAILS */}
         <Title level={4}>Payment Details</Title>
         <Row
           justify="space-between"
@@ -98,6 +100,7 @@ const UpgradePlanCard = () => {
           </Col>
         </Row>
 
+        {/* ADD PAYMENT METOD */}
         <Title level={5} style={{ color: "#175BF8" }}>
           ADD PAYMENT METOD{" "}
         </Title>
