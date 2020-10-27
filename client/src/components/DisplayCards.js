@@ -3,8 +3,6 @@ import UpgradePlanCard from "./UpgradePlanCard";
 import ProfileCard from "./ProfileCard";
 import PricingCard from "./PricingCard";
 
-import { Row, Col } from "antd";
-
 const DisplayCards = () => {
   return (
     <div className="display-container">
