@@ -18,7 +18,7 @@ const PricingCard = () => {
 
   return (
     <div>
-      <Card>
+      <Card style={{ borderRadius: 15 }}>
         <Title level={3}>Set up your pricing</Title>
         <Text type="secondary">
           Please set up your hourly or fix rate so that the client is aware of
@@ -26,14 +26,14 @@ const PricingCard = () => {
         </Text>
 
         <Row justify="space-around" style={{ marginTop: 20, marginBottom: 20 }}>
-          <Col span={8}>
+          <Col span={10}>
             <Button size="large" block onClick={hourlyToggle}>
               <DashboardOutlined />
               Hourly
             </Button>
           </Col>
-          <Col span={8}></Col>
-          <Col span={8}>
+          <Col span={4}></Col>
+          <Col span={10}>
             <Button size="large" block onClick={fixedRateToggle}>
               <ProfileOutlined />
               Fixed

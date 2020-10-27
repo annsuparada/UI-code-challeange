@@ -20,8 +20,8 @@ const ProfileCard = () => {
           <img
             alt="avater"
             src="/img/avatar.png"
-            width="150px"
-            height="150px"
+            width="120px"
+            height="120px"
             style={{
               borderRadius: "50%",
               marginTop: "-100px",
@@ -31,7 +31,7 @@ const ProfileCard = () => {
           />
         </Row>
         <Row justify="center">
-          <Title level={2} style={{ margin: "5px" }}>
+          <Title level={3} style={{ margin: "5px" }}>
             Fillip Martin Jose
           </Title>
         </Row>
@@ -54,8 +54,8 @@ const ProfileCard = () => {
               style={{
                 color: "#ffffff",
                 margin: 0,
-                padding: "8px 12px 8px 12px",
-                fontSize: 16,
+                padding: "7px 12px 7px 12px",
+                fontSize: 15,
               }}
             >
               Pro Level
