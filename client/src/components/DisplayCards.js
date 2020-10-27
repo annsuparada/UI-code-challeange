@@ -1,6 +1,7 @@
 import React from "react";
 import UpgradePlanCard from "./UpgradePlanCard";
-import { Card, Row, Col, Typography, Input, Button, Avatar } from "antd";
+import ProfileCard from "./ProfileCard";
+import { Card, Row, Col, Typography } from "antd";
 
 const { Title, Text } = Typography;
 const DisplayCards = () => {
@@ -12,12 +13,7 @@ const DisplayCards = () => {
         </Col>
 
         <Col span={10}>
-          <Card>
-            <p>Card content</p>
-            <p>Card content</p>
-            <p>Card content</p>
-          </Card>
-
+          <ProfileCard />
           <Card>
             <p>Card content</p>
             <p>Card content</p>
