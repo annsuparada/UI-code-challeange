@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Typography, Avatar } from "antd";
+import { Card, Row, Col, Typography, Badge } from "antd";
 
 const { Title, Text } = Typography;
 
@@ -39,6 +39,28 @@ const ProfileCard = () => {
           <Text type="secondary" style={{ fontSize: "17px" }}>
             Los Angeles
           </Text>
+        </Row>
+        <Row justify="center">
+          <div
+            style={{
+              backgroundColor: "#0149ef",
+              width: "110px",
+              borderRadius: "20px",
+              textAlign: "center",
+              marginTop: 10,
+            }}
+          >
+            <p
+              style={{
+                color: "#ffffff",
+                margin: 0,
+                padding: "8px 12px 8px 12px",
+                fontSize: 16,
+              }}
+            >
+              Pro Level
+            </p>
+          </div>
         </Row>
 
         <Row justify="space-around" style={{ marginTop: "25px" }}>
