@@ -1,9 +1,12 @@
 import "./App.css";
+import DisplayCards from "./components/DisplayCards";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <div className="container">
+        <DisplayCards />
+      </div>
     </div>
   );
 }
