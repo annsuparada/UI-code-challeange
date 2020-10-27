@@ -1,24 +1,21 @@
 import React from "react";
 import UpgradePlanCard from "./UpgradePlanCard";
 import ProfileCard from "./ProfileCard";
-import { Card, Row, Col, Typography } from "antd";
+import PricingCard from "./PricingCard";
 
-const { Title, Text } = Typography;
+import { Row, Col } from "antd";
+
 const DisplayCards = () => {
   return (
     <div className="display-container">
       <Row justify="space-around">
-        <Col span={10}>
+        <Col span={12}>
           <UpgradePlanCard />
         </Col>
 
         <Col span={10}>
           <ProfileCard />
-          <Card>
-            <p>Card content</p>
-            <p>Card content</p>
-            <p>Card content</p>
-          </Card>
+          <PricingCard />
         </Col>
       </Row>
     </div>

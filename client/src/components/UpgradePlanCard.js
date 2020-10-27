@@ -35,7 +35,14 @@ const UpgradePlanCard = () => {
           </Col>
           <Col span={7} style={{ marginTop: "10px" }}>
             <Text type="secondary">
-              ${" "}
+              <span
+                style={{
+                  top: "-6px",
+                  position: "relative",
+                }}
+              >
+                $
+              </span>{" "}
               <span
                 style={{ color: "black", fontSize: 25, fontWeight: "bold" }}
               >
